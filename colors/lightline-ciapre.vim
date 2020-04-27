@@ -4,7 +4,7 @@
 " URL: https://github.com/konart
 " Author: konart
 " License: MIT
-" Last Change: 2020/04/27 18:35
+" Last Change: 2020/04/27 19:38
 " ===============================================================
 
 set background=dark
