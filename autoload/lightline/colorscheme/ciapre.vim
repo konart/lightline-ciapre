@@ -4,7 +4,7 @@
 " URL: https://github.com/konart
 " Author: konart
 " License: MIT
-" Last Change: 2020/04/27 14:02
+" Last Change: 2020/04/27 18:35
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -12,8 +12,8 @@ let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": 
 let s:p.normal.left = [[["#222222", 235], ["#726d59", 242]], [["#726d59", 242], ["#222222", 235]]]
 let s:p.normal.middle = [[["#565f4a", 240], ["#222222", 235]]]
 let s:p.normal.right = [[["#222222", 235], ["#726d59", 242]], [["#222222", 235], ["#726d59", 242]]]
-let s:p.normal.error = [[["#990000", 88], ["", ]]]
-let s:p.normal.warning = [[["#df5f01", 166], ["", ]]]
+let s:p.normal.error = [[["#ffffff", 15], ["#990000", 88]]]
+let s:p.normal.warning = [[["#ffffff", 15], ["#df5f01", 166]]]
 
 let s:p.inactive.left = [[["#696969", 242], ["#222222", 235]], [["#696969", 242], ["#222222", 235]]]
 let s:p.inactive.middle = [[["#696969", 242], ["#222222", 235]]]
@@ -23,9 +23,9 @@ let s:p.insert.left = [[["#ffffff", 15], ["#d99a4e", 173]], [["#565f4a", 240], [
 let s:p.insert.middle = [[["#222222", 235], ["#565f4a", 240]]]
 let s:p.insert.right = [[["#ffffff", 15], ["#d99a4e", 173]], [["#ffffff", 15], ["#d99a4e", 173]]]
 
-let s:p.replace.left = [[["", ], ["", ]], [["", ], ["", ]]]
-let s:p.replace.middle = [[["", ], ["", ]]]
-let s:p.replace.right = [[["", ], ["", ]], [["", ], ["", ]]]
+let s:p.replace.left = [[["#ffffff", 15], ["#d99a4e", 173]], [["#565f4a", 240], ["#222222", 235]]]
+let s:p.replace.middle = [[["#222222", 235], ["#565f4a", 240]]]
+let s:p.replace.right = [[["#ffffff", 15], ["#d99a4e", 173]], [["#ffffff", 15], ["#d99a4e", 173]]]
 
 let s:p.visual.left = [[["#ffffff", 15], ["#87875f", 101]], [["#565f4a", 240], ["#222222", 235]]]
 let s:p.visual.middle = [[["#222222", 235], ["#565f4a", 240]]]
